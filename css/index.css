@@ -144,13 +144,16 @@ body {
   color: #297355;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
+.h2-body-font {
+  font-size: 1.8rem;
+}
 .container {
   width: 960px;
   margin: 0 auto;
   background: #eee;
   border-radius: 15px;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .container {
     width: 80%;
   }
@@ -161,7 +164,7 @@ header {
   color: #297355;
   padding: 30px;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   header {
     width: 80%;
     margin: 15px auto;
@@ -182,7 +185,7 @@ header nav ul li {
   padding: 30px;
   border-radius: 10px;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .main-content {
     width: 80%;
     margin: 15px auto;
@@ -198,7 +201,7 @@ header nav ul li {
   font-size: 1.6rem;
   text-align: right;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .main-content .profile h1 {
     font-size: 1.4rem;
   }
@@ -208,7 +211,7 @@ header nav ul li {
   font-size: 5rem;
   color: #297355;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .main-content .profile h1 strong {
     font-size: 4rem;
   }
@@ -216,7 +219,7 @@ header nav ul li {
 .main-content .profile img {
   padding: 2%;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .main-content .profile img {
     width: 95%;
   }
@@ -236,7 +239,7 @@ header nav ul li {
   justify-content: space-between;
   padding: 30px;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .bio {
     flex-direction: column;
     width: 80%;
@@ -248,7 +251,7 @@ header nav ul li {
 .bio .about {
   width: 50%;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .bio .about {
     width: 100%;
   }
@@ -257,7 +260,7 @@ header nav ul li {
   font-size: 1.8rem;
   margin-bottom: 5%;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .bio .about h2 {
     font-size: 1.6rem;
   }
@@ -266,7 +269,7 @@ header nav ul li {
   font-size: 1.4rem;
   margin-right: 10%;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .bio .about p {
     font-size: 1.2rem;
   }
@@ -274,7 +277,7 @@ header nav ul li {
 .bio .powers {
   width: 50%;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .bio .powers {
     margin-top: 30px;
     width: 100%;
@@ -284,7 +287,7 @@ header nav ul li {
   font-size: 1.8rem;
   margin-bottom: 5%;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .bio .powers h2 {
     font-size: 1.6rem;
   }
@@ -299,7 +302,7 @@ header nav ul li {
   margin: 0 auto;
   padding: 30px;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .defeated {
     width: 80%;
   }
@@ -308,7 +311,7 @@ header nav ul li {
   font-size: 1.8rem;
   margin: 2% 0 2% 0;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .defeated h2 {
     font-size: 1.6rem;
   }
@@ -322,7 +325,7 @@ header nav ul li {
   padding: 2%;
   font-size: 1.4rem;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   .defeated .defeat-list p {
     font-size: 1.2rem;
     width: 50%;
@@ -338,7 +341,7 @@ footer {
   font-size: 2em;
   border-radius: 10px;
 }
-@media (max-width: 960px) {
+@media (max-width: 500px) {
   footer {
     width: 80%;
   }
