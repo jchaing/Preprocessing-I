@@ -1,1 +1,360 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 62.5%;
+  font-family: 'Boogaloo';
+  background: #297355;
+}
+.doom {
+  font-family: 'Bangers';
+  color: #297355;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+.h2-body-font {
+  font-size: 1.8rem;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background: #eee;
+  border-radius: 15px;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 80%;
+  }
+}
+header {
+  width: 960px;
+  margin: 30px auto;
+  color: #297355;
+  padding: 30px;
+}
+@media (max-width: 960px) {
+  header {
+    width: 80%;
+    margin: 15px auto;
+  }
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav ul li {
+  font-size: 1rem;
+  margin: 0 3%;
+}
+.main-content {
+  width: 960px;
+  font-family: 'Boogaloo';
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+@media (max-width: 960px) {
+  .main-content {
+    width: 80%;
+    margin: 15px auto;
+  }
+}
+.main-content .profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-content .profile h1 {
+  font-size: 1.6rem;
+  text-align: right;
+}
+@media (max-width: 960px) {
+  .main-content .profile h1 {
+    font-size: 1.4rem;
+  }
+}
+.main-content .profile h1 strong {
+  font-family: 'Bangers';
+  font-size: 5rem;
+  color: #297355;
+}
+@media (max-width: 960px) {
+  .main-content .profile h1 strong {
+    font-size: 4rem;
+  }
+}
+.main-content .profile img {
+  padding: 2%;
+}
+@media (max-width: 960px) {
+  .main-content .profile img {
+    width: 95%;
+  }
+}
+.main-content h2 {
+  font-size: 1.2rem;
+}
+.main-content p {
+  padding-top: 2%;
+  font-size: 1rem;
+  text-align: center;
+}
+.bio {
+  width: 960px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+@media (max-width: 960px) {
+  .bio {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+    margin: 15px auto;
+  }
+}
+.bio .about {
+  width: 50%;
+}
+@media (max-width: 960px) {
+  .bio .about {
+    width: 100%;
+  }
+}
+.bio .about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5%;
+}
+@media (max-width: 960px) {
+  .bio .about h2 {
+    font-size: 1.6rem;
+  }
+}
+.bio .about p {
+  font-size: 1.4rem;
+  margin-right: 10%;
+}
+@media (max-width: 960px) {
+  .bio .about p {
+    font-size: 1.2rem;
+  }
+}
+.bio .powers {
+  width: 50%;
+}
+@media (max-width: 960px) {
+  .bio .powers {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+.bio .powers h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5%;
+}
+@media (max-width: 960px) {
+  .bio .powers h2 {
+    font-size: 1.6rem;
+  }
+}
+.bio .powers .list p {
+  font-size: 1.2rem;
+  padding: 2%;
+  border: 1px solid lightgray;
+}
+.defeated {
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+}
+@media (max-width: 960px) {
+  .defeated {
+    width: 80%;
+  }
+}
+.defeated h2 {
+  font-size: 1.8rem;
+  margin: 2% 0 2% 0;
+}
+@media (max-width: 960px) {
+  .defeated h2 {
+    font-size: 1.6rem;
+  }
+}
+.defeated .defeat-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.defeated .defeat-list p {
+  width: 25%;
+  padding: 2%;
+  font-size: 1.4rem;
+}
+@media (max-width: 960px) {
+  .defeated .defeat-list p {
+    font-size: 1.2rem;
+    width: 50%;
+  }
+}
+footer {
+  width: 960px;
+  margin: 30px auto;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+  border-radius: 10px;
+}
+@media (max-width: 960px) {
+  footer {
+    width: 80%;
+  }
+}
+footer .contact {
+  padding: 20px;
+}
+footer .contact a,
+footer .contact a:visited {
+  color: #a2a2a2;
+  text-decoration: none;
+  margin: 0 15px;
+}
+footer .copyright {
+  padding: 20px;
+}
